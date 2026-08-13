@@ -33,5 +33,11 @@ public class Main {
         int idade = 20;
         double valor = 55.9999;
         System.out.println(String.format("Meu nome é %s, eu tenho %d anos e hoje gastei R$%.2f reais.", nome, idade, valor));
+
+        // Classificação em 'estrelas'
+        // Pode-se usar o printf para poder usar placeholders
+        int classificacao;
+        classificacao = (int) (media / 2);
+        System.out.printf("Filme %d de 5 Estrelas", classificacao);
     }
 }
