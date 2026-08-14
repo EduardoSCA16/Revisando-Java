@@ -32,7 +32,7 @@ public class Main {
         String nome = "Maria";
         int idade = 20;
         double valor = 55.9999;
-        System.out.println(String.format("Meu nome é %s, eu tenho %d anos e hoje gastei R$%.2f reais.", nome, idade, valor));
+        System.out.printf("Meu nome é %s, eu tenho %d anos e hoje gastei R$%.2f reais.%n", nome, idade, valor);
 
         // Classificação em 'estrelas'
         // Pode-se usar o printf para poder usar placeholders
