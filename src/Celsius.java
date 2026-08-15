@@ -1,5 +1,6 @@
 public class Celsius {
     public static void main(String[] args) {
+        // Programa feito para converter graus Celsius em Fahrenheit
 
         double celsius = 30.4;
         double fahrenheit = (celsius * 1.8) + 32;

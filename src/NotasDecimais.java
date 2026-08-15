@@ -1,5 +1,8 @@
 public class NotasDecimais {
     public static void main (String[] args) {
+
+        // Programa feito para calcular média entre duas notas
+
         double nota1 = 8.9;
         double nota2 = 7.5;
 

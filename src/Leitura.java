@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// Programa para revisar Scanner
+
 public class Leitura {
     static void main(String[] args) {
         // Geralmente se usa sc como nome do Scanner
@@ -12,7 +14,6 @@ public class Leitura {
         int anoLancamento = leitura.nextInt();
         System.out.print("De 0 a 10, diga sua avaliação para o filme: ");
         double avaliacao = leitura.nextDouble();
-
 
         System.out.println(filme);
         System.out.println(anoLancamento);

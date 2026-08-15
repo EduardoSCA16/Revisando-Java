@@ -1,5 +1,8 @@
 public class Main {
     public static void main() {
+
+        // Programa feito acompanhando as aulas da Alura
+
         System.out.println("Esse é o Scree Match!");
         System.out.println("Filme: Top Gun: Maverick");
 
